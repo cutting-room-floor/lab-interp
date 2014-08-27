@@ -1,0 +1,21 @@
+{
+  "name": "lab-interp",
+  "version": "0.0.0",
+  "description": "interpolate lab colors simply",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "cov": "istanbul cover tape test.js"
+  },
+  "keywords": [
+    "interpolate",
+    "lab",
+    "colors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "~2.14.0",
+    "istanbul": "~0.3.0"
+  }
+}
